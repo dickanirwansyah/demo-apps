@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoAppsJenkinsApplication {
 
 	public static void main(String[] args) {
+		System.out.println("demo-apps-jenkins is starter");
 		SpringApplication.run(DemoAppsJenkinsApplication.class, args);
 	}
 
